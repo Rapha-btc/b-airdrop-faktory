@@ -1,5 +1,5 @@
 (define-public (airdrop-clean)
-  (begin ;; 10
+  (begin ;; 1062 times 69
     (try! (contract-call? 'SPV9K21TBFAK4KNRJXF5DFP8N7W46G4V9RCJDC22.b-faktory transfer u6900000000 tx-sender 'SP3W69VDG9VTZNG7NTW1QNCC1W45SNY98W1JSZBJH none))
     (try! (contract-call? 'SPV9K21TBFAK4KNRJXF5DFP8N7W46G4V9RCJDC22.b-faktory transfer u6900000000 tx-sender 'SP2Q1EF3X4KQR03AQCHR522Q18Y5XVFPP84EGQR44 none))
     (try! (contract-call? 'SPV9K21TBFAK4KNRJXF5DFP8N7W46G4V9RCJDC22.b-faktory transfer u6900000000 tx-sender 'SP2R5RAJWVDR106BJB858MHJTMH4ZXM88TGTTHBZJ none))
